@@ -1,0 +1,114 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.header{
+    height: 58px;
+    overflow: hidden;
+    background: rgb(110, 189, 182);
+    position: fixed; /*fixed相对于浏览器窗口定位，滚动浏览器窗口并不会使其移动 */
+    top: 0;
+    width:100%;
+}
+.head-logo{
+    line-height: 10px;
+    float: left;
+    background-repeat:no-repeat;
+    background-position: left center;
+   
+}
+#search{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: solid 1px red;
+    width: 200px;
+}
+ ul{    
+               /*左边导航栏的div*/
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 140px;
+    height: 100%;
+    line-height: 56px;
+    background-color: rgba(141, 221, 177, 0.822);
+    position: fixed;
+    margin-top: 20px;
+    list-style-type: none; 
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgba(131, 42, 60, 0.829);
+}
+li{
+    border-bottom: 1px solid rgb(2, 2, 19);
+}
+
+.out{
+    color: rgb(187, 49, 49);
+    margin-top: 20px;
+    margin-right: 30px;
+   
+}
+
+.search-input{
+    display: flex;
+ 
+    float: right;
+
+}
+.main-container{
+    width: 100%;
+   height: 800px;
+    padding-top: 50px;
+    margin:0px auto;
+    
+}
+
+
+.main{              /*右边主页面的div*/
+  
+    height: 100%;
+    margin-left:160px; 
+    margin-top: 20px;                   
+   background-color: rgba(117, 143, 165, 0.986);
+   
+   
+}
+.container-all{         /*body下的整体界面*/
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    position: static;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-table-overlooking-office-stationery-image_259709.jpg")
+}
+.caozuo{                /*表格上面输入框添加更新的div*/
+   padding: 10px;
+   font-size: 20px;
+   display: none;
+}
+table{     /*table表格*/
+   width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+   /* margin-left: 30px; */
+  
+}
+th{
+    background-color: cornflowerblue;
+}
+th,td{
+    border:1px solid;
+    text-align: center;  
+}
+tr{
+    height: 10px;
+}
+#user-m{   
+    
+    width:100%;
+ }
+ 

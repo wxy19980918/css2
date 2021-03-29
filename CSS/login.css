@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-table-overlooking-office-stationery-image_259709.jpg")
+}
+#container{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: 320px;
+    background-color:rgba(204, 195, 143, 0.486);
+}
+    #header-logo{
+    margin-top: 60px;
+    text-align: center;
+}
+#text-input-pass{
+    padding: 20px;
+}
+input{
+    border: solid 1px ;
+    width: 280px;
+    height: 30px;
+    padding: 5px;
+}
+input:focus{
+    background-color: rgb(176, 203, 214);
+    border: 2px solid darkred;
+}
+#login-button{
+    margin-top: 20px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(70, 100, 156, 0.767);
+}
+
